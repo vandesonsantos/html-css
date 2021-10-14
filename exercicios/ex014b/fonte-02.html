@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes externas</title>
+    <style>
+        /* Exportação externa de fonte sem ser do google.fonts.com */
+        @font-face {
+            font-family: 'love';
+            src: url('fonts/love story.otf') format('opentype'), url('fonts/love story.ttf') format('truetype'); 
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: 'ahlan';
+            src: url('fonts/ahlan.otf') format('opentype'), url('fonts/ahlan.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: 'arabian';
+            src: url('fonts/arabian.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        body {
+            font-family: 'arabian', 'Geneva', Tahoma, sans-serif;
+            font-size: 2.3em;
+        }
+
+        h1 {
+            font-family: 'love', Helvetica, sans-serif;
+            font-size: 1em;
+        }
+
+        main {
+            font-family: 'ahlan', 'Cochin', Georgia, Times, 'Times New Roman', serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Título</h1>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores, voluptas voluptatibus delectus quas at sequi officiis quaerat illo! Dolor id neque minima quod commodi error assumenda et repudiandae incidunt dicta! Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas sequi ab quisquam doloremque. Error, cupiditate assumenda vero, nihil facilis praesentium cumque tempore, magnam similique quae nam commodi voluptas harum incidunt!</p>
+
+    <main>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt eos tempora possimus fugiat atque consequatur reprehenderit saepe quam, nulla officiis autem dolor voluptatum excepturi amet aut maxime error debitis quidem! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium iste, ut eaque vero dicta eos ullam voluptate neque in sed non quo, fugit velit iure minus. Fuga numquam vero quae.</p>
+    </main>
+</body>
+</html>
