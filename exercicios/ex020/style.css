@@ -1,0 +1,106 @@
+@charset "UTF-08";
+
+/* Exportação de fonte do google font */
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+:root {
+
+    /* Fontes */
+    --titulo: 'Passion One', cursive;
+    --conteudo: 'Sriracha', cursive;
+    --padrao: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/*Seletor Global*/
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/*Cabeçalho*/
+header {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 60px;
+}
+
+header > p {
+    font-family: var(--padrao);
+}
+
+header > h1 {
+    font-family: var(--titulo);
+    font-size: 9vw;
+}
+
+/*Conteudo*/
+main {
+    font-family: var(--conteudo);
+    font-size: 3.5vw;
+}
+
+main > section#bl01 {
+    padding: 50px;
+}
+
+main > section#bl02 {
+    background-image: url('imagens/1foto.jpg');
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 50px;
+}
+
+main > section#bl02 > p {
+    background-color: rgba(0, 0, 0, 0.500);
+    color: white;
+    width: 41vw;
+    padding: 5px;
+}
+
+main > section#bl03 {
+    padding: 50px;
+}
+
+main > section#bl04 {
+    padding: 50px;
+}
+
+main > section#bl05 {
+    background-image: url('imagens/2foto.jpg');
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: cover;
+    background-attachment:fixed;
+    padding: 50px;
+}
+
+main > section#bl05 > p {
+    background-color: rgba(0, 0, 0, 0.500);
+    color: white;
+    width: 42vw;
+    padding: 5px;
+}
+
+main > section#bl06 {
+    padding: 50px;
+}
+
+main > section#bl07 {
+    padding: 50px;
+    padding-bottom: 100px;
+}
+
+/*Rodapé*/
+footer {
+    font-family: var(--padrao);
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    padding: 10px;
+}
